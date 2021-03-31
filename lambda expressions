@@ -1,0 +1,17 @@
+List<int> spisyk = new List<int>() { 12, 25, 33, 42, 55, 66 };
+
+List<int> evenNumbers = spisyk.FindAll(x => (x % 3) == 0);
+
+foreach (var num in evenNumbers)
+
+{
+
+      Console.Write("{0} ", num);
+
+}
+
+Console.WriteLine();
+
+// the result is:
+
+12, 33, 42, 66
