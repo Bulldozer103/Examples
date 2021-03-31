@@ -1,0 +1,1 @@
+where cars.Color.StartsWith("g")
