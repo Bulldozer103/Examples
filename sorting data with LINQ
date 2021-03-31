@@ -1,0 +1,23 @@
+string[] flowers = { "rose", "snowdrop", "sunflower" };
+
+var flowersSortedByLetters =
+
+      from flower in flowers
+
+      orderby flower.Letters ascending
+
+      select flower;
+
+foreach (var word in flowersSortedByLetters)
+
+{
+
+      Console.WriteLine(flower);
+
+}
+
+//the result is:
+
+rose
+snowdrop
+sunflower
