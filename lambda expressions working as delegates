@@ -1,0 +1,15 @@
+Func<bool> boolfunkciq = () => true;
+
+Func<int, bool> intfunkciq = (x) => x < 20;
+
+if (boolfunkciq() && intfunkciq(8))
+
+{
+
+      Console.WriteLine("8 < 20");
+
+}
+
+//the result is the following:
+
+8 < 20
