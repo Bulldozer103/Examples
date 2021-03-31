@@ -1,0 +1,2 @@
+var myPhone = new { Model = "Armor8", Brand = "Ulefone", Color = "Black" };
+//пример за създаване на анонимен тип, описващ телефон
