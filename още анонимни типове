@@ -1,0 +1,12 @@
+Console.WriteLine("ToString: {0}", myPhone.ToString());
+Console.WriteLine("Hash code: {0}", myPhone.GetHashCode().ToString());
+Console.WriteLine("Equals? {0}", myPhone.Equals(
+  new { Model = "Armor8", Brand = "Ulefone", Color = "Black" }
+  ));
+  Console.WriteLine("Type name: {0}", myPhone.GetType().ToString());
+  
+  //Резултатът от изпълнението на кода е следния:
+  ToString: { Model = Armor8, Brand = Ulefone, Color = Black }
+  HashCode: 153200386*
+  Equals? True
+  Type name: <>f__AnonymousType0`3 [System.String,System.String,System.String]
